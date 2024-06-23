@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Nav from "@/components/Nav";
 import MobileNav from "@/components/mobileNav";
+
+
 const HomePage = () => {
   const [nav, setNav] = useState(false);
   const openNav = () => setNav(true);
@@ -8,8 +10,8 @@ const HomePage = () => {
   return(
     <div className= "overflow-x-hidden">
       <div>
-        <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav}/>
+        <MobileNav nav={nav} closeNav={closeNav} />
       </div>
     </div>
   );
