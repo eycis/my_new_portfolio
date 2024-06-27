@@ -2,7 +2,7 @@ import React from "react";
 import {Bars3Icon} from "@heroicons/react/24/solid"
 
 interface Props{
-    openNav:()=> void;
+    openNav: () => void;
 }
 const Nav = ({openNav}:Props) => {
     return (
