@@ -11,12 +11,14 @@ const Nav = ({openNav}:Props) => {
                 <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
                     My <span className="text-violet-300">CV</span>
                 </h1>
+                <div className="hidden md:flex space-x-4">
                     <div className="nav-link">Home</div>
                     <div className="nav-link">About me</div>
                     <div className="nav-link">Projects</div>
                     <div className="nav-link">Contact</div>
+                </div>
                 <div onClick={openNav}>
-                    <Bars3Icon className="w-[2rem] h-[2rem] cursor-pointer text-violet-300"/>
+                    <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-violet-300"/>
                 </div>
             </div>
         </div>
