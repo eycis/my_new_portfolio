@@ -1,6 +1,6 @@
-
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import React from "react";
+
 interface Props{
     nav:boolean;
     closeNav:()=> void;
@@ -17,7 +17,7 @@ const MobileNav = ({nav, closeNav}: Props) => {
                 <div className = "nav-link-mobile">Contact</div>
             </div>
             <div onClick = {closeNav} 
-                className= "absolute cursor-pointer top-[2rem] right-[2rem] h-[2rem] text-violet-300">
+                className= "absolute cursor-pointer top-[2rem] right-[2rem] h-[2rem] w-[2rem] h-[2rem] text-violet-300">
                 <XMarkIcon/>
             </div>
         </div>

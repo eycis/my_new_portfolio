@@ -12,8 +12,11 @@ const HomePage = () => {
   return(
     <div className= "overflow-x-hidden">
       <div>
+        {/*Navigation Bar*/}
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav}/>
+        {/* Navigation Bar */}
+        <Hero/>
       </div>
     </div>
   );
