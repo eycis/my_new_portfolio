@@ -6,11 +6,11 @@ const TextEffect = () => {
       sequence={[
         'Placeholder',
         1500,
-        'Placeholder',
+        'Placeholder 02 ',
         1500,
-        'Placeholder',
+        'Placeholder 03 ',
         1500,
-        'Placeholder',
+        'Placeholder 04',
         1500
       ]}
       speed={50}
